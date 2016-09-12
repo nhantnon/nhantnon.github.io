@@ -1,1 +1,48 @@
-body {background:blue}
+nav {
+	background-image: url("http://c7.staticflickr.com/8/7353/9670033550_ecc2887573_h.jpg");
+}
+
+body {
+	background: #D3D3D3
+}
+
+
+
+h2{
+	font-family: helvetica;
+}
+img {
+	padding: 10px;
+	border: 5px solid black;
+}
+
+button {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+}
+
+#bordeauxtext {
+	font-family: helvetica;
+	font-size: .8em;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+a:visited {
+    color: #ff69b4;
+}
+
+@media screen and (max-width: 500px) {
+body {
+    font-size: 80%;
+    font-family: helvetica;
+    width: 100%;
+} 
+    
+}
